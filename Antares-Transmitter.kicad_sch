@@ -1,0 +1,1200 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7eacce39-bbdf-4759-aeb5-d69ccfcb7b29")
+	(paper "A4")
+	(title_block
+		(title "Project Antares - Transmitter Schematic")
+		(date "2024-08-23")
+		(rev "1.0.0")
+		(company "Ourobors Embedded Development")
+		(comment 1 "Pablo Jean Rozario")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09014d6a-d6e6-4327-908a-262e5e2e923e")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b35e30-9ee9-47a4-8350-555935548a11")
+	)
+	(wire
+		(pts
+			(xy 87.63 120.65) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199af027-a0d9-4558-b8ab-49f5a4c4e172")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b68f2e0-92f0-45b8-9386-caf2230b3e86")
+	)
+	(wire
+		(pts
+			(xy 87.63 59.69) (xy 124.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc7013b-d74e-46cc-944e-39cdcaa400e5")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.22) (xy 207.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e964f8c-da78-4816-be70-48cde6af4e0b")
+	)
+	(wire
+		(pts
+			(xy 170.18 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47113317-1f41-4ac2-a2b2-9f4410ce661c")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a386da5-2705-4763-b9c5-505627e9a266")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 207.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d570953-041e-47c3-b53e-35073fc211fc")
+	)
+	(wire
+		(pts
+			(xy 87.63 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6a3e7e-5e16-42f3-bed7-d5de59911d69")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e499a62-4b1e-47db-84ae-64a017f6ea6e")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708b93d4-423f-49ec-bed4-73bfc14a817d")
+	)
+	(wire
+		(pts
+			(xy 170.18 99.06) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b28923-13be-4eab-855f-f0a0a08553e1")
+	)
+	(wire
+		(pts
+			(xy 87.63 57.15) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dee9dea-d02d-405f-b6fc-dac37d63fdf2")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1b7988-2fde-4336-b55f-48940094339e")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea2e62e-7104-4bfd-97ac-b3351b6090d3")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7096bcd-11ec-4e25-ae3a-217f01d36a50")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccd28c1-24aa-4f07-a319-41d9523dee75")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6f03ae-b096-4fad-bfde-90f93e15aebd")
+	)
+	(wire
+		(pts
+			(xy 87.63 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8675b0-4a3e-4efa-92cf-f322b98d51d0")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3316843-346f-4baf-81a4-05ddc10b74b5")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ad6187-67d7-4f89-8b86-7d5dbc21dafc")
+	)
+	(wire
+		(pts
+			(xy 170.18 74.93) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8994b69-504e-4390-bede-c5060d59a8cd")
+	)
+	(wire
+		(pts
+			(xy 87.63 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0f3b55-acd0-46b3-8676-14422a81bba1")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd5bd2f-459d-4c64-95ad-0e0e942ed33c")
+	)
+	(sheet
+		(at 124.46 54.61)
+		(size 45.72 71.755)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2240d507-cfe0-4bc7-8cd0-a40261eebf45")
+		(property "Sheetname" "MCU"
+			(at 124.46 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 124.46 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DBG_TX" output
+			(at 124.46 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+			(uuid "d7924351-99a4-4b51-84a6-d2444a49deb7")
+		)
+		(pin "LED_P4" output
+			(at 124.46 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify left)
+			)
+			(uuid "33db54d6-a703-43ba-84cc-c36a8551f71c")
+		)
+		(pin "DBG_RX" input
+			(at 124.46 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+			(uuid "9498df14-be00-410f-9687-865ea3c859e7")
+		)
+		(pin "ACC_INT1" input
+			(at 124.46 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 194 0 1)
+				)
+				(justify left)
+			)
+			(uuid "f0d61e18-3ff3-4899-ab58-1eaee23f6cfc")
+		)
+		(pin "LED_P3" output
+			(at 124.46 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify left)
+			)
+			(uuid "13090cf6-b029-4bda-ab1b-e806a027a1eb")
+		)
+		(pin "ACC_INT2" input
+			(at 124.46 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 194 0 1)
+				)
+				(justify left)
+			)
+			(uuid "5c6b2c30-d0fe-4aee-91b8-04bfa88c4c00")
+		)
+		(pin "DBG_SWCLK" input
+			(at 124.46 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+			(uuid "b639847c-a58d-4d0f-b355-49ca94870809")
+		)
+		(pin "ACC_SCL" output
+			(at 124.46 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 194 0 1)
+				)
+				(justify left)
+			)
+			(uuid "203942dc-c267-4e0e-99a3-7f4d0423c93e")
+		)
+		(pin "DBG_SWDIO" bidirectional
+			(at 124.46 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+			(uuid "c8d6de77-f329-4ef7-99ab-7161f2a3081f")
+		)
+		(pin "ACC_SDA" bidirectional
+			(at 124.46 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 194 0 1)
+				)
+				(justify left)
+			)
+			(uuid "c96b509e-fbcf-47ca-b45e-77eb19f08d61")
+		)
+		(pin "DBG_~{RST}" input
+			(at 124.46 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+			(uuid "6985f756-8289-4302-846a-eac1046d6bf5")
+		)
+		(pin "CC1101_MISO" input
+			(at 170.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "b1004b18-a403-4707-b0f6-c74bd21f049a")
+		)
+		(pin "CC1101_~{CS}" output
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "15615525-b4a7-4f3d-a435-525d51085f4b")
+		)
+		(pin "CC1101_SCK" output
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "6754cd07-a32a-4e87-b93c-bbc4bde32e16")
+		)
+		(pin "CC1101_MOSI" output
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "3946c04b-a8b0-4c4f-a795-4519f13bee78")
+		)
+		(pin "LED_WORK" output
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 204 102 0 1)
+				)
+				(justify right)
+			)
+			(uuid "d98057d0-4b1d-42c7-984b-bd762f428c52")
+		)
+		(pin "BTN_STRUM_UP" input
+			(at 124.46 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "4d8f1ea0-293e-4d1b-8f4f-639765b8c967")
+		)
+		(pin "BTN_STRUM_DOWN" input
+			(at 124.46 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "0e8c1ad6-9359-42dc-abe2-889875ebded6")
+		)
+		(pin "CC1101_GDO0" bidirectional
+			(at 170.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "b50d5199-c667-4970-96e6-c5395706d7f3")
+		)
+		(pin "CC1101_GDO2" bidirectional
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "215bf869-bf4b-4d82-b086-bed9dab3b5cd")
+		)
+		(pin "BTNS_CONTROL" input
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 204 102 0 1)
+				)
+				(justify right)
+			)
+			(uuid "1521584b-f513-467a-98fd-83e525d8f0c6")
+		)
+		(pin "POT_WHAM" input
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 194 1)
+				)
+				(justify right)
+			)
+			(uuid "ec3fd81b-8ff5-4425-872c-0063b7e33231")
+		)
+		(pin "LED_P2" output
+			(at 124.46 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify left)
+			)
+			(uuid "18ac4934-677f-4d2b-8d31-0dcf296431aa")
+		)
+		(pin "LED_P1" output
+			(at 124.46 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify left)
+			)
+			(uuid "b77ef9a5-a433-4b95-9ef2-d24d360977b3")
+		)
+		(pin "BTNS_NOTES" input
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 132 1)
+				)
+				(justify right)
+			)
+			(uuid "5671a7be-2040-41cf-9c86-d3cc5a91f848")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.325 76.2)
+		(size 27.305 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "299e1806-d9a7-4704-b9b2-4b9200c2cd64")
+		(property "Sheetname" "LEDs"
+			(at 60.325 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 60.325 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_P3" input
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify right)
+			)
+			(uuid "3e15139d-311b-48f1-aabc-fba391519460")
+		)
+		(pin "LED_P4" input
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify right)
+			)
+			(uuid "1b5d1a08-aec1-443c-b6ca-c321176c288e")
+		)
+		(pin "LED_P1" input
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify right)
+			)
+			(uuid "401b8f30-7f1d-43aa-ae44-700b9ae266e7")
+		)
+		(pin "LED_P2" input
+			(at 87.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 72 1)
+				)
+				(justify right)
+			)
+			(uuid "c1955700-dbcf-47c5-86ac-7ba5c9a1f8ee")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 72.39)
+		(size 29.21 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52583b1f-6fbd-4f75-9469-41ecb3f339d3")
+		(property "Sheetname" "Wham Bar"
+			(at 207.01 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wham.kicad_sch"
+			(at 207.01 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POT_WHAM" output
+			(at 207.01 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 194 1)
+				)
+				(justify left)
+			)
+			(uuid "bdbaba3e-afc5-47a4-b9f8-01b416e1c060")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 55.88)
+		(size 30.48 8.255)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f7bb571-d887-412b-afba-0267762175ed")
+		(property "Sheetname" "Control Buttons"
+			(at 207.01 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_buttons.kicad_sch"
+			(at 207.01 64.7196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_WORK" input
+			(at 207.01 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 204 102 0 1)
+				)
+				(justify left)
+			)
+			(uuid "f47664e8-85e4-4a16-bc20-651494f1422a")
+		)
+		(pin "BTNS_CONTROL" output
+			(at 207.01 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 204 102 0 1)
+				)
+				(justify left)
+			)
+			(uuid "d175b4ea-2406-4b70-a89c-4ba78ac474a1")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 36.83)
+		(size 45.72 10.795)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72fde2e0-0b20-4d02-915a-614c1643345b")
+		(property "Sheetname" "Power Input"
+			(at 124.46 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 124.46 48.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 84.455)
+		(size 30.48 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b70b2fc-49e3-42a0-b447-77c1c57b7a09")
+		(property "Sheetname" "Notes"
+			(at 207.01 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "notes.kicad_sch"
+			(at 207.01 91.3896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTNS_NOTES" output
+			(at 207.01 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 132 1)
+				)
+				(justify left)
+			)
+			(uuid "2ca90d2c-ccd3-4634-b2a1-2cb308a401ed")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 96.52)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b82dc90-2c5e-4a12-b0c3-9dc0f854a933")
+		(property "Sheetname" "Radio 915MHz"
+			(at 207.01 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 207.01 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CC1101_~{CS}" input
+			(at 207.01 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify left)
+			)
+			(uuid "20e66584-5297-49f8-8edc-2e23f1ede8dc")
+		)
+		(pin "CC1101_GDO2" bidirectional
+			(at 207.01 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify left)
+			)
+			(uuid "d96102e4-30eb-411e-8985-283bdd48c54d")
+		)
+		(pin "CC1101_GDO0" bidirectional
+			(at 207.01 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify left)
+			)
+			(uuid "c43a93a6-b1cc-4075-88be-35744ea09299")
+		)
+		(pin "CC1101_MISO" output
+			(at 207.01 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify left)
+			)
+			(uuid "5667e11d-9f34-48ec-9427-3833ac22db38")
+		)
+		(pin "CC1101_MOSI" input
+			(at 207.01 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify left)
+			)
+			(uuid "82a7fd5d-be02-4fc8-a8a3-74a96c06cb79")
+		)
+		(pin "CC1101_SCK" input
+			(at 207.01 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 132 0 1)
+				)
+				(justify left)
+			)
+			(uuid "6565e84a-f182-456a-b1ca-2861472ff4f8")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.325 95.885)
+		(size 27.305 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5284cc2-b5aa-4898-b9b8-ce7b1c8c2af5")
+		(property "Sheetname" "Accelerometer"
+			(at 60.325 95.1734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accelerometer.kicad_sch"
+			(at 60.325 111.7096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACC_SDA" bidirectional
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "cb67bc4e-faba-4088-bdbc-a19f2e5b95ec")
+		)
+		(pin "ACC_INT2" output
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "e23a291c-764e-4f4a-a494-9c5bb0cf7675")
+		)
+		(pin "ACC_SCL" input
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "66571bb9-591a-4bea-aa5b-ece7f901fd22")
+		)
+		(pin "ACC_INT1" output
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 0 1)
+				)
+				(justify right)
+			)
+			(uuid "51d548b1-8a0a-45d6-8128-ced15501f2e4")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.325 116.84)
+		(size 27.305 9.525)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e897e552-39a5-4897-97b5-99c86deab657")
+		(property "Sheetname" "Strum bar"
+			(at 60.325 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "strum.kicad_sch"
+			(at 60.325 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN_STRUM_UP" output
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "bc22d7ae-eb07-4ca1-b724-771be6bb34a8")
+		)
+		(pin "BTN_STRUM_DOWN" output
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "a0a09759-a91a-4259-944c-79a912115164")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.325 53.975)
+		(size 27.305 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f47ebe58-310a-4a29-ada9-20d70931e31d")
+		(property "Sheetname" "Debugging"
+			(at 60.325 53.2634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debugging.kicad_sch"
+			(at 60.325 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DBG_RX" output
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify right)
+			)
+			(uuid "3f02dd86-b1ac-4eb4-a4f0-b12690f4ec09")
+		)
+		(pin "DBG_SWCLK" output
+			(at 87.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify right)
+			)
+			(uuid "0081bd92-f9c3-457d-868d-4c71ab824b06")
+		)
+		(pin "DBG_~{RST}" output
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify right)
+			)
+			(uuid "8e386115-19d2-426f-8aff-d046cb48107a")
+		)
+		(pin "DBG_SWDIO" bidirectional
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify right)
+			)
+			(uuid "af10309f-e286-4a17-ab92-ca1f3ba6eca4")
+		)
+		(pin "DBG_TX" input
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify right)
+			)
+			(uuid "7c3f8267-03bc-4a19-b07a-13a59f9f76ca")
+		)
+		(instances
+			(project "Antares-Transmitter"
+				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
