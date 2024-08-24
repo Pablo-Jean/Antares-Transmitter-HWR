@@ -499,8 +499,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Output/1.0.0/Gerber X2",
-      "pos_files": "Output/1.0.0/Placement",
+      "plot": "Output/1.0.1/Gerber X2",
+      "pos_files": "Output/1.0.1/Placement",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -510,7 +510,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Outputs/1.0.0/Bill of Materials.csv",
+    "bom_export_filename": "Output/1.0.1/Bill of Materials.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -527,7 +527,7 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
