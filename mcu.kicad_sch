@@ -7,7 +7,7 @@
 	(title_block
 		(title "Project Antares - Transmitter Schematic")
 		(date "2024-08-23")
-		(rev "1.0.0")
+		(rev "1.0.1")
 		(company "Ourobors Embedded Development")
 		(comment 1 "Pablo Jean Rozario")
 	)
@@ -1467,16 +1467,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5715e780-dd35-4334-9330-864605a7cfa3")
-	)
-	(wire
-		(pts
 			(xy 119.38 93.98) (xy 134.62 93.98)
 		)
 		(stroke
@@ -1564,6 +1554,16 @@
 			(type default)
 		)
 		(uuid "8237f98b-0c43-406d-bbf1-368fbc9e8070")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20b67b9-ff67-4b73-9014-1f53f589dc15")
 	)
 	(wire
 		(pts
@@ -1737,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e63ca7-a68c-4527-9cad-6f0840bae1df")
+	)
+	(wire
+		(pts
 			(xy 125.73 133.35) (xy 125.73 127)
 		)
 		(stroke
@@ -1808,6 +1818,19 @@
 		)
 		(uuid "1595ee2a-5e2c-4401-8fd2-97e093f7c105")
 	)
+	(hierarchical_label "BTNS_~{CS}"
+		(shape input)
+		(at 175.26 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+			(justify left)
+		)
+		(uuid "15f9c8cb-4412-427f-ad3b-96e1ab68596d")
+	)
 	(hierarchical_label "CC1101_~{CS}"
 		(shape output)
 		(at 175.26 119.38 0)
@@ -1859,19 +1882,6 @@
 			(justify right)
 		)
 		(uuid "551d31df-30b3-419e-9420-0c1a383aae8b")
-	)
-	(hierarchical_label "POT_WHAM"
-		(shape input)
-		(at 119.38 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 194 1)
-			)
-			(justify right)
-		)
-		(uuid "6babba35-75a7-4b19-b139-785d461b0bd7")
 	)
 	(hierarchical_label "CC1101_MOSI"
 		(shape output)
@@ -2029,6 +2039,19 @@
 		)
 		(uuid "db303491-ab43-4b03-89ca-ef2788d87fdd")
 	)
+	(hierarchical_label "BTNS_~{LD}"
+		(shape input)
+		(at 175.26 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+			(justify left)
+		)
+		(uuid "e0e64e1f-2950-4a02-a794-491ee56aa86e")
+	)
 	(hierarchical_label "BTN_STRUM_DOWN"
 		(shape input)
 		(at 175.26 109.22 0)
@@ -2068,6 +2091,19 @@
 		)
 		(uuid "e45c5680-6d31-4dff-a432-26bc19916b65")
 	)
+	(hierarchical_label "POT_WHAM"
+		(shape input)
+		(at 119.38 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 194 1)
+			)
+			(justify right)
+		)
+		(uuid "e4c4aa45-036d-42e5-98ad-0c2d04a7221c")
+	)
 	(hierarchical_label "ACC_INT2"
 		(shape input)
 		(at 119.38 101.6 180)
@@ -2080,19 +2116,6 @@
 			(justify right)
 		)
 		(uuid "f076ec36-655e-41d3-90a2-2a0e45518091")
-	)
-	(hierarchical_label "BTNS_NOTES"
-		(shape input)
-		(at 119.38 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 132 1)
-			)
-			(justify right)
-		)
-		(uuid "f7b0d434-519b-4bd8-ad18-6398afbbd9dc")
 	)
 	(symbol
 		(lib_id "power:GND")

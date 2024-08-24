@@ -7,11 +7,23 @@
 	(title_block
 		(title "Project Antares - Transmitter Schematic")
 		(date "2024-08-23")
-		(rev "1.0.0")
+		(rev "1.0.1")
 		(company "Ourobors Embedded Development")
 		(comment 1 "Pablo Jean Rozario")
 	)
 	(lib_symbols)
+	(junction
+		(at 195.58 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcc0658-7db9-4790-a7e3-4bc45e0a6cac")
+	)
+	(junction
+		(at 193.04 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ede0fccc-0e54-4cff-899f-0c79293c2837")
+	)
 	(wire
 		(pts
 			(xy 87.63 66.04) (xy 124.46 66.04)
@@ -21,6 +33,26 @@
 			(type default)
 		)
 		(uuid "09014d6a-d6e6-4327-908a-262e5e2e923e")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d31661f-b48b-46c3-9d00-606a3339fd9c")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f1b0b5-27ba-439a-a41b-feca95e9f039")
 	)
 	(wire
 		(pts
@@ -44,7 +76,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 106.68) (xy 207.01 106.68)
+			(xy 170.18 114.3) (xy 207.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +96,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 207.01 109.22)
+			(xy 170.18 116.84) (xy 193.04 116.84)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +106,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 207.01 111.76)
+			(xy 170.18 119.38) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -101,6 +133,26 @@
 			(type default)
 		)
 		(uuid "5d570953-041e-47c3-b53e-35073fc211fc")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695bbb98-41ac-43b7-aa08-48ff1949cc93")
+	)
+	(wire
+		(pts
+			(xy 207.01 92.71) (xy 195.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697cced4-43b4-4484-8f53-7bcd7ea86fd1")
 	)
 	(wire
 		(pts
@@ -134,7 +186,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 207.01 99.06)
+			(xy 195.58 92.71) (xy 195.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5540a2-1648-45cd-b935-36ad1bab6322")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -174,7 +236,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 207.01 101.6)
+			(xy 170.18 109.22) (xy 207.01 109.22)
 		)
 		(stroke
 			(width 0)
@@ -191,6 +253,16 @@
 			(type default)
 		)
 		(uuid "bccd28c1-24aa-4f07-a319-41d9523dee75")
+	)
+	(wire
+		(pts
+			(xy 195.58 121.92) (xy 207.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff097bd-9442-495c-acf3-f13b0f9333ea")
 	)
 	(wire
 		(pts
@@ -214,7 +286,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 207.01 114.3)
+			(xy 170.18 121.92) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -261,6 +333,16 @@
 			(type default)
 		)
 		(uuid "edd5bd2f-459d-4c64-95ad-0e0e942ed33c")
+	)
+	(wire
+		(pts
+			(xy 207.01 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42a97b6-42f3-478c-8373-d32cf09c746c")
 	)
 	(sheet
 		(at 124.46 54.61)
@@ -414,7 +496,7 @@
 			(uuid "6985f756-8289-4302-846a-eac1046d6bf5")
 		)
 		(pin "CC1101_MISO" input
-			(at 170.18 114.3 0)
+			(at 170.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +507,7 @@
 			(uuid "b1004b18-a403-4707-b0f6-c74bd21f049a")
 		)
 		(pin "CC1101_~{CS}" output
-			(at 170.18 106.68 0)
+			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +518,7 @@
 			(uuid "15615525-b4a7-4f3d-a435-525d51085f4b")
 		)
 		(pin "CC1101_SCK" output
-			(at 170.18 109.22 0)
+			(at 170.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +529,7 @@
 			(uuid "6754cd07-a32a-4e87-b93c-bbc4bde32e16")
 		)
 		(pin "CC1101_MOSI" output
-			(at 170.18 111.76 0)
+			(at 170.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +573,7 @@
 			(uuid "0e8c1ad6-9359-42dc-abe2-889875ebded6")
 		)
 		(pin "CC1101_GDO0" bidirectional
-			(at 170.18 99.06 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,7 +584,7 @@
 			(uuid "b50d5199-c667-4970-96e6-c5395706d7f3")
 		)
 		(pin "CC1101_GDO2" bidirectional
-			(at 170.18 101.6 0)
+			(at 170.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,16 +638,25 @@
 			)
 			(uuid "b77ef9a5-a433-4b95-9ef2-d24d360977b3")
 		)
-		(pin "BTNS_NOTES" input
+		(pin "BTNS_~{CS}" input
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6248ad9b-2683-4570-a743-3963ab224ec9")
+		)
+		(pin "BTNS_~{LD}" input
 			(at 170.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 132 0 132 1)
 				)
 				(justify right)
 			)
-			(uuid "5671a7be-2040-41cf-9c86-d3cc5a91f848")
+			(uuid "61f4d99d-4137-4176-8a37-db4ecadb83bf")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -806,7 +897,7 @@
 	)
 	(sheet
 		(at 207.01 84.455)
-		(size 30.48 6.35)
+		(size 30.48 13.335)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -826,7 +917,7 @@
 			)
 		)
 		(property "Sheetfile" "notes.kicad_sch"
-			(at 207.01 91.3896 0)
+			(at 207.01 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,16 +925,45 @@
 				(justify left top)
 			)
 		)
-		(pin "BTNS_NOTES" output
+		(pin "BTNS_SCK" input
+			(at 207.01 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d6475ac-f2de-4606-8b03-625318ababc0")
+		)
+		(pin "BTNS_~{LD}" input
 			(at 207.01 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 132 0 132 1)
 				)
 				(justify left)
 			)
-			(uuid "2ca90d2c-ccd3-4634-b2a1-2cb308a401ed")
+			(uuid "185b3c1a-4e61-4fbd-ad73-a6c760300bca")
+		)
+		(pin "BTNS_DO" output
+			(at 207.01 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82bb7f33-e0e6-4bff-9d13-be3761bd9222")
+		)
+		(pin "BTNS_~{CS}" input
+			(at 207.01 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdc268dd-38c8-45e4-b5f3-ad0d7c3ee1cd")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -854,7 +974,7 @@
 		)
 	)
 	(sheet
-		(at 207.01 96.52)
+		(at 207.01 104.14)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -866,7 +986,7 @@
 		)
 		(uuid "9b82dc90-2c5e-4a12-b0c3-9dc0f854a933")
 		(property "Sheetname" "Radio 915MHz"
-			(at 207.01 95.8084 0)
+			(at 207.01 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +995,7 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 207.01 117.4246 0)
+			(at 207.01 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +1004,7 @@
 			)
 		)
 		(pin "CC1101_~{CS}" input
-			(at 207.01 106.68 180)
+			(at 207.01 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +1015,7 @@
 			(uuid "20e66584-5297-49f8-8edc-2e23f1ede8dc")
 		)
 		(pin "CC1101_GDO2" bidirectional
-			(at 207.01 101.6 180)
+			(at 207.01 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +1026,7 @@
 			(uuid "d96102e4-30eb-411e-8985-283bdd48c54d")
 		)
 		(pin "CC1101_GDO0" bidirectional
-			(at 207.01 99.06 180)
+			(at 207.01 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1037,7 @@
 			(uuid "c43a93a6-b1cc-4075-88be-35744ea09299")
 		)
 		(pin "CC1101_MISO" output
-			(at 207.01 114.3 180)
+			(at 207.01 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +1048,7 @@
 			(uuid "5667e11d-9f34-48ec-9427-3833ac22db38")
 		)
 		(pin "CC1101_MOSI" input
-			(at 207.01 111.76 180)
+			(at 207.01 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +1059,7 @@
 			(uuid "82a7fd5d-be02-4fc8-a8a3-74a96c06cb79")
 		)
 		(pin "CC1101_SCK" input
-			(at 207.01 109.22 180)
+			(at 207.01 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)

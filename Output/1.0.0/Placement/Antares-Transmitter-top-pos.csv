@@ -1,4 +1,4 @@
-Designator,Val,Package,Mid X,Mid Y,Rotarion,Layer
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 AE301,915MHz,Texas_SWRA416_868MHz_915MHz,88.900000,-114.000000,90.000000,top
 C202,100n,C_0603_1608Metric,122.000000,-125.000000,-45.000000,top
 C203,10p,C_0603_1608Metric,123.200000,-123.800000,-45.000000,top
