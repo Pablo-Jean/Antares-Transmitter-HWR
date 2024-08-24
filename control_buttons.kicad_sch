@@ -3472,7 +3472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea602843-8e9c-4c06-b97f-2ec3e0c1cf0b")
-		(property "Reference" "TP?"
+		(property "Reference" "TP601"
 			(at 97.79 84.3279 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 		(instances
 			(project "Antares-Transmitter"
 				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29/6f7bb571-d887-412b-afba-0267762175ed"
-					(reference "TP?")
+					(reference "TP601")
 					(unit 1)
 				)
 			)

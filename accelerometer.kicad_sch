@@ -2002,7 +2002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9de349c1-e285-48dc-892f-6f697ecd9364")
-		(property "Reference" "TP?"
+		(property "Reference" "TP801"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -2054,7 +2054,7 @@
 		(instances
 			(project "Antares-Transmitter"
 				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29/e5284cc2-b5aa-4898-b9b8-ce7b1c8c2af5"
-					(reference "TP?")
+					(reference "TP801")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9dc1c84-525b-4227-86be-df16f852f154")
-		(property "Reference" "TP?"
+		(property "Reference" "TP802"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -2122,7 +2122,7 @@
 		(instances
 			(project "Antares-Transmitter"
 				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29/e5284cc2-b5aa-4898-b9b8-ce7b1c8c2af5"
-					(reference "TP?")
+					(reference "TP802")
 					(unit 1)
 				)
 			)
@@ -2138,7 +2138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac610df7-66b9-4b68-bb80-06c2f07e7d60")
-		(property "Reference" "TP?"
+		(property "Reference" "TP803"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -2190,7 +2190,7 @@
 		(instances
 			(project "Antares-Transmitter"
 				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29/e5284cc2-b5aa-4898-b9b8-ce7b1c8c2af5"
-					(reference "TP?")
+					(reference "TP803")
 					(unit 1)
 				)
 			)
@@ -2206,7 +2206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afcc9ce4-d380-4a31-9bd0-f0d08e30db87")
-		(property "Reference" "TP?"
+		(property "Reference" "TP804"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -2258,7 +2258,7 @@
 		(instances
 			(project "Antares-Transmitter"
 				(path "/7eacce39-bbdf-4759-aeb5-d69ccfcb7b29/e5284cc2-b5aa-4898-b9b8-ce7b1c8c2af5"
-					(reference "TP?")
+					(reference "TP804")
 					(unit 1)
 				)
 			)
