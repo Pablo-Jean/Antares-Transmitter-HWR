@@ -7,7 +7,7 @@
 	(title_block
 		(title "Project Antares - Transmitter Schematic")
 		(date "2024-08-23")
-		(rev "1.0.1")
+		(rev "1.0.2")
 		(company "Ourobors Embedded Development")
 		(comment 1 "Pablo Jean Rozario")
 	)
@@ -1588,7 +1588,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C99782"
+		(property "LCSC" "C23162"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RC0603FR-074K7L"
+		(property "PN" "0603WAF4701T5E"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -1742,7 +1742,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C99782"
+		(property "LCSC" "C23162"
 			(at 140.97 101.6 0)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RC0603FR-074K7L"
+		(property "PN" "0603WAF4701T5E"
 			(at 140.97 101.6 0)
 			(effects
 				(font

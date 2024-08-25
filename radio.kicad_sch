@@ -7,7 +7,7 @@
 	(title_block
 		(title "Project Antares - Transmitter Schematic")
 		(date "2024-08-23")
-		(rev "1.0.1")
+		(rev "1.0.2")
 		(company "Ourobors Embedded Development")
 		(comment 1 "Pablo Jean Rozario")
 	)
@@ -2992,7 +2992,7 @@
 		(dnp no)
 		(uuid "03f90af2-69ba-4f0b-bd6b-b14284d067c8")
 		(property "Reference" "TP304"
-			(at 116.84 83.82 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3214,7 @@
 		(dnp no)
 		(uuid "147e8c20-05f8-42ff-88e2-a1bb5d913fd3")
 		(property "Reference" "TP303"
-			(at 110.49 83.82 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107047"
+		(property "LCSC" "C1663"
 			(at 83.82 156.21 0)
 			(effects
 				(font
@@ -3401,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603JRNPO9BN330"
+		(property "PN" "CL10C330JB8NNNC"
 			(at 83.82 156.21 0)
 			(effects
 				(font
@@ -3480,7 +3480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14665"
+		(property "LCSC" "C14858"
 			(at 189.23 121.92 0)
 			(effects
 				(font
@@ -3489,7 +3489,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603JRNPO9BN101"
+		(property "PN" "CL10C101JB8NNNC"
 			(at 189.23 121.92 0)
 			(effects
 				(font
@@ -3765,7 +3765,7 @@
 		(dnp no)
 		(uuid "51627e63-7be8-44ae-b1e2-9e7425a5f625")
 		(property "Reference" "TP301"
-			(at 97.79 83.82 0)
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107034"
+		(property "LCSC" "C38523"
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -4063,7 +4063,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603JRNPO9BN120"
+		(property "PN" "CL10C120JB8NNNC"
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 		(dnp no)
 		(uuid "aebfdd6a-dd62-41d5-8441-c32cfd9e8d22")
 		(property "Reference" "TP302"
-			(at 104.14 83.82 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107047"
+		(property "LCSC" "C1663"
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -5443,7 +5443,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603JRNPO9BN330"
+		(property "PN" "CL10C330JB8NNNC"
 			(at 62.23 156.21 0)
 			(effects
 				(font
