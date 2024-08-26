@@ -500,7 +500,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Output/1.0.2/Gerber X2",
-      "pos_files": "Output/1.0.1/Placement",
+      "pos_files": "Output/1.0.2/Placement",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
