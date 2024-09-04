@@ -5127,7 +5127,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105622"
+		(property "LCSC" "C1671"
 			(at 246.38 109.22 0)
 			(effects
 				(font
@@ -5136,7 +5136,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603JRNPO9BN470"
+		(property "PN" "CL10C470JB8NNNC"
 			(at 246.38 109.22 0)
 			(effects
 				(font
