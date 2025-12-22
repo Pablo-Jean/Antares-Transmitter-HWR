@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b5ecf743-2e62-4e10-8c82-88ad2b667aa4")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,30 +83,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -125,8 +116,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -136,14 +127,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -237,11 +239,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -311,7 +318,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -323,7 +330,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -370,12 +377,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -447,7 +459,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -459,7 +471,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -490,7 +502,58 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "P3"
+		(exclude_from_sim no)
+		(at 170.18 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10159b30-9ee2-4e11-863c-dc3f2a284a55")
+	)
+	(text "P2"
+		(exclude_from_sim no)
+		(at 170.18 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2983e6a3-f8a6-4dfe-bc35-d2f0bdc78bcb")
+	)
+	(text "P4"
+		(exclude_from_sim no)
+		(at 170.18 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54e724f9-0c84-456d-9ed8-3946a9308132")
+	)
+	(text "P1"
+		(exclude_from_sim no)
+		(at 170.18 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4004098-3c58-43ce-bca6-490875e25113")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 170.18 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed6eba7b-ae73-4138-941d-00cf8a9028a0")
 	)
 	(wire
 		(pts
@@ -592,60 +655,9 @@
 		)
 		(uuid "c8774abb-a515-431d-af64-bef9cfbcdee7")
 	)
-	(text "P3"
-		(exclude_from_sim no)
-		(at 170.18 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "10159b30-9ee2-4e11-863c-dc3f2a284a55")
-	)
-	(text "P2"
-		(exclude_from_sim no)
-		(at 170.18 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2983e6a3-f8a6-4dfe-bc35-d2f0bdc78bcb")
-	)
-	(text "P4"
-		(exclude_from_sim no)
-		(at 170.18 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54e724f9-0c84-456d-9ed8-3946a9308132")
-	)
-	(text "P1"
-		(exclude_from_sim no)
-		(at 170.18 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b4004098-3c58-43ce-bca6-490875e25113")
-	)
-	(text "VCC"
-		(exclude_from_sim no)
-		(at 170.18 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed6eba7b-ae73-4138-941d-00cf8a9028a0")
-	)
 	(hierarchical_label "LED_P3"
 		(shape input)
 		(at 134.62 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -658,7 +670,6 @@
 	(hierarchical_label "LED_P4"
 		(shape input)
 		(at 134.62 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -671,7 +682,6 @@
 	(hierarchical_label "LED_P1"
 		(shape input)
 		(at 134.62 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -684,7 +694,6 @@
 	(hierarchical_label "LED_P2"
 		(shape input)
 		(at 134.62 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -721,7 +730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S05B-XASK-1_1x05_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A-1_1x05_P2.50mm_Horizontal"
 			(at 166.37 86.36 0)
 			(effects
 				(font

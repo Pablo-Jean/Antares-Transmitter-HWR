@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "468979a1-b8a1-47f5-b18d-9cad62da6f84")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -113,10 +117,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -183,30 +190,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -227,8 +223,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -238,14 +234,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -339,10 +346,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -409,41 +419,19 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -464,8 +452,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -475,14 +463,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -594,11 +604,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -668,10 +683,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -680,10 +695,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -729,11 +744,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -803,7 +823,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -815,7 +835,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -862,12 +882,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -939,7 +964,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -951,7 +976,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -982,12 +1007,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1078,7 +1108,234 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 164.465 26.67)
+		(end 199.39 55.245)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 0 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5f1f5c5-5927-407c-80d3-9c12f8086a61)
+	)
+	(text "SEL"
+		(exclude_from_sim no)
+		(at 200.66 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c9ab03d-d142-4eb6-a5ad-4c57ca6cc88d")
+	)
+	(text "1.807V"
+		(exclude_from_sim no)
+		(at 115.57 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "19ca1f33-f02f-494e-924b-ef5dcdee6253")
+	)
+	(text "VD1"
+		(exclude_from_sim no)
+		(at 200.66 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22029904-f188-4eaf-be99-9f4bcd1d3f49")
+	)
+	(text "RIGHT"
+		(exclude_from_sim no)
+		(at 199.39 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ccec8a5-8012-4820-b8c6-4798e4ade2fe")
+	)
+	(text "MODE"
+		(exclude_from_sim no)
+		(at 199.39 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56dc8de9-1c2f-4d4e-8fde-5da88b71fddc")
+	)
+	(text "800mV"
+		(exclude_from_sim no)
+		(at 115.57 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "677e1069-fa36-4a10-8c7b-8a88b9237aec")
+	)
+	(text "Decoupling Capacitor(s)"
+		(exclude_from_sim no)
+		(at 176.53 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "70902edb-2231-4987-bec0-a39bca32ce50")
+	)
+	(text "1.300V"
+		(exclude_from_sim no)
+		(at 115.57 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "73c299cb-bb23-451e-83b8-8447c40abf21")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 200.66 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "926eb7cb-7b7b-4cd9-abf0-aecb20357e59")
+	)
+	(text "LEFT"
+		(exclude_from_sim no)
+		(at 199.39 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7f4a1e7-2568-4101-8dce-e4b39de42a26")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 199.39 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8e5a407-8573-4949-b6b3-48aa95e788aa")
+	)
+	(text "2.425V"
+		(exclude_from_sim no)
+		(at 115.57 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "ba66fe85-453e-4509-84fa-92f4c492de08")
+	)
+	(text "STA"
+		(exclude_from_sim no)
+		(at 200.66 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc84699c-a063-4dcb-8b26-94b0c5fc08d9")
+	)
+	(text "UP"
+		(exclude_from_sim no)
+		(at 199.39 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfa65ab7-341d-461c-a454-be676d7a9732")
+	)
+	(text "DOWN"
+		(exclude_from_sim no)
+		(at 199.39 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd5ef9c-18b1-4158-ae67-c12f74e62870")
+	)
+	(text "300mV"
+		(exclude_from_sim no)
+		(at 115.57 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "d3e64bd0-f11e-483a-8402-867a8f161828")
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 200.66 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb63f788-3d9b-48a7-a5bf-35356c56317f")
+	)
+	(text "2.109V"
+		(exclude_from_sim no)
+		(at 115.57 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "f852b17a-74df-4c38-a205-1b8c73110134")
+	)
+	(text "2.747V"
+		(exclude_from_sim no)
+		(at 115.57 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "fc1da821-6797-4b14-8a5c-f7d1e21873a9")
 	)
 	(junction
 		(at 113.03 101.6)
@@ -1578,235 +1835,8 @@
 		)
 		(uuid "ff207148-1f2e-4070-a535-04fc637534aa")
 	)
-	(rectangle
-		(start 164.465 26.67)
-		(end 199.39 55.245)
-		(stroke
-			(width 0.5)
-			(type dash)
-			(color 0 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f5f1f5c5-5927-407c-80d3-9c12f8086a61)
-	)
-	(text "SEL"
-		(exclude_from_sim no)
-		(at 200.66 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c9ab03d-d142-4eb6-a5ad-4c57ca6cc88d")
-	)
-	(text "1.807V"
-		(exclude_from_sim no)
-		(at 115.57 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "19ca1f33-f02f-494e-924b-ef5dcdee6253")
-	)
-	(text "VD1"
-		(exclude_from_sim no)
-		(at 200.66 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "22029904-f188-4eaf-be99-9f4bcd1d3f49")
-	)
-	(text "RIGHT"
-		(exclude_from_sim no)
-		(at 199.39 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ccec8a5-8012-4820-b8c6-4798e4ade2fe")
-	)
-	(text "MODE"
-		(exclude_from_sim no)
-		(at 199.39 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56dc8de9-1c2f-4d4e-8fde-5da88b71fddc")
-	)
-	(text "800mV"
-		(exclude_from_sim no)
-		(at 115.57 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "677e1069-fa36-4a10-8c7b-8a88b9237aec")
-	)
-	(text "Decoupling Capacitor(s)"
-		(exclude_from_sim no)
-		(at 176.53 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 132 132 1)
-			)
-		)
-		(uuid "70902edb-2231-4987-bec0-a39bca32ce50")
-	)
-	(text "1.300V"
-		(exclude_from_sim no)
-		(at 115.57 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "73c299cb-bb23-451e-83b8-8447c40abf21")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 200.66 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "926eb7cb-7b7b-4cd9-abf0-aecb20357e59")
-	)
-	(text "LEFT"
-		(exclude_from_sim no)
-		(at 199.39 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a7f4a1e7-2568-4101-8dce-e4b39de42a26")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 199.39 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8e5a407-8573-4949-b6b3-48aa95e788aa")
-	)
-	(text "2.425V"
-		(exclude_from_sim no)
-		(at 115.57 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "ba66fe85-453e-4509-84fa-92f4c492de08")
-	)
-	(text "STA"
-		(exclude_from_sim no)
-		(at 200.66 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bc84699c-a063-4dcb-8b26-94b0c5fc08d9")
-	)
-	(text "UP"
-		(exclude_from_sim no)
-		(at 199.39 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bfa65ab7-341d-461c-a454-be676d7a9732")
-	)
-	(text "DOWN"
-		(exclude_from_sim no)
-		(at 199.39 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbd5ef9c-18b1-4158-ae67-c12f74e62870")
-	)
-	(text "300mV"
-		(exclude_from_sim no)
-		(at 115.57 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "d3e64bd0-f11e-483a-8402-867a8f161828")
-	)
-	(text "LED"
-		(exclude_from_sim no)
-		(at 200.66 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eb63f788-3d9b-48a7-a5bf-35356c56317f")
-	)
-	(text "2.109V"
-		(exclude_from_sim no)
-		(at 115.57 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "f852b17a-74df-4c38-a205-1b8c73110134")
-	)
-	(text "2.747V"
-		(exclude_from_sim no)
-		(at 115.57 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 132 132 1)
-			)
-			(justify left)
-		)
-		(uuid "fc1da821-6797-4b14-8a5c-f7d1e21873a9")
-	)
 	(label "BT_DOWN"
 		(at 134.62 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1817,7 +1847,6 @@
 	)
 	(label "BT_START"
 		(at 160.02 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1828,7 +1857,6 @@
 	)
 	(label "BT_DOWN"
 		(at 160.02 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1839,7 +1867,6 @@
 	)
 	(label "BT_RIGHT"
 		(at 160.02 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1850,7 +1877,6 @@
 	)
 	(label "BT_SELECT"
 		(at 134.62 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,7 +1887,6 @@
 	)
 	(label "BT_MODE"
 		(at 160.02 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1872,7 +1897,6 @@
 	)
 	(label "BT_UP"
 		(at 160.02 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1883,7 +1907,6 @@
 	)
 	(label "BT_SELECT"
 		(at 160.02 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1894,7 +1917,6 @@
 	)
 	(label "BT_MODE"
 		(at 134.62 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1905,7 +1927,6 @@
 	)
 	(label "BT_LEFT"
 		(at 134.62 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1916,7 +1937,6 @@
 	)
 	(label "BT_START"
 		(at 134.62 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1927,7 +1947,6 @@
 	)
 	(label "BT_RIGHT"
 		(at 134.62 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1938,7 +1957,6 @@
 	)
 	(label "BT_LEFT"
 		(at 160.02 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1949,7 +1967,6 @@
 	)
 	(label "BT_UP"
 		(at 134.62 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +1978,6 @@
 	(hierarchical_label "LED_WORK"
 		(shape input)
 		(at 160.02 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1974,7 +1990,6 @@
 	(hierarchical_label "BTNS_CONTROL"
 		(shape output)
 		(at 82.55 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3162,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S05B-XASK-1_1x05_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A-1_1x05_P2.50mm_Horizontal"
 			(at 196.85 72.39 0)
 			(effects
 				(font

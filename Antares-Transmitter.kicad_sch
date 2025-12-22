@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7eacce39-bbdf-4759-aeb5-d69ccfcb7b29")
 	(paper "A4")
 	(title_block
@@ -347,6 +347,10 @@
 	(sheet
 		(at 124.46 54.61)
 		(size 45.72 71.755)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -376,6 +380,7 @@
 		)
 		(pin "DBG_TX" output
 			(at 124.46 57.15 180)
+			(uuid "d7924351-99a4-4b51-84a6-d2444a49deb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,10 +388,10 @@
 				)
 				(justify left)
 			)
-			(uuid "d7924351-99a4-4b51-84a6-d2444a49deb7")
 		)
 		(pin "LED_P4" output
 			(at 124.46 86.36 180)
+			(uuid "33db54d6-a703-43ba-84cc-c36a8551f71c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,10 +399,10 @@
 				)
 				(justify left)
 			)
-			(uuid "33db54d6-a703-43ba-84cc-c36a8551f71c")
 		)
 		(pin "DBG_RX" input
 			(at 124.46 59.69 180)
+			(uuid "9498df14-be00-410f-9687-865ea3c859e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,10 +410,10 @@
 				)
 				(justify left)
 			)
-			(uuid "9498df14-be00-410f-9687-865ea3c859e7")
 		)
 		(pin "ACC_INT1" input
 			(at 124.46 105.41 180)
+			(uuid "f0d61e18-3ff3-4899-ab58-1eaee23f6cfc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,10 +421,10 @@
 				)
 				(justify left)
 			)
-			(uuid "f0d61e18-3ff3-4899-ab58-1eaee23f6cfc")
 		)
 		(pin "LED_P3" output
 			(at 124.46 83.82 180)
+			(uuid "13090cf6-b029-4bda-ab1b-e806a027a1eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,10 +432,10 @@
 				)
 				(justify left)
 			)
-			(uuid "13090cf6-b029-4bda-ab1b-e806a027a1eb")
 		)
 		(pin "ACC_INT2" input
 			(at 124.46 107.95 180)
+			(uuid "5c6b2c30-d0fe-4aee-91b8-04bfa88c4c00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,10 +443,10 @@
 				)
 				(justify left)
 			)
-			(uuid "5c6b2c30-d0fe-4aee-91b8-04bfa88c4c00")
 		)
 		(pin "DBG_SWCLK" input
 			(at 124.46 66.04 180)
+			(uuid "b639847c-a58d-4d0f-b355-49ca94870809")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,10 +454,10 @@
 				)
 				(justify left)
 			)
-			(uuid "b639847c-a58d-4d0f-b355-49ca94870809")
 		)
 		(pin "ACC_SCL" output
 			(at 124.46 101.6 180)
+			(uuid "203942dc-c267-4e0e-99a3-7f4d0423c93e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,10 +465,10 @@
 				)
 				(justify left)
 			)
-			(uuid "203942dc-c267-4e0e-99a3-7f4d0423c93e")
 		)
 		(pin "DBG_SWDIO" bidirectional
 			(at 124.46 63.5 180)
+			(uuid "c8d6de77-f329-4ef7-99ab-7161f2a3081f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,10 +476,10 @@
 				)
 				(justify left)
 			)
-			(uuid "c8d6de77-f329-4ef7-99ab-7161f2a3081f")
 		)
 		(pin "ACC_SDA" bidirectional
 			(at 124.46 99.06 180)
+			(uuid "c96b509e-fbcf-47ca-b45e-77eb19f08d61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,10 +487,10 @@
 				)
 				(justify left)
 			)
-			(uuid "c96b509e-fbcf-47ca-b45e-77eb19f08d61")
 		)
 		(pin "DBG_~{RST}" input
 			(at 124.46 68.58 180)
+			(uuid "6985f756-8289-4302-846a-eac1046d6bf5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,10 +498,10 @@
 				)
 				(justify left)
 			)
-			(uuid "6985f756-8289-4302-846a-eac1046d6bf5")
 		)
 		(pin "CC1101_MISO" input
 			(at 170.18 121.92 0)
+			(uuid "b1004b18-a403-4707-b0f6-c74bd21f049a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,10 +509,10 @@
 				)
 				(justify right)
 			)
-			(uuid "b1004b18-a403-4707-b0f6-c74bd21f049a")
 		)
 		(pin "CC1101_~{CS}" output
 			(at 170.18 114.3 0)
+			(uuid "15615525-b4a7-4f3d-a435-525d51085f4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,10 +520,10 @@
 				)
 				(justify right)
 			)
-			(uuid "15615525-b4a7-4f3d-a435-525d51085f4b")
 		)
 		(pin "CC1101_SCK" output
 			(at 170.18 116.84 0)
+			(uuid "6754cd07-a32a-4e87-b93c-bbc4bde32e16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,10 +531,10 @@
 				)
 				(justify right)
 			)
-			(uuid "6754cd07-a32a-4e87-b93c-bbc4bde32e16")
 		)
 		(pin "CC1101_MOSI" output
 			(at 170.18 119.38 0)
+			(uuid "3946c04b-a8b0-4c4f-a795-4519f13bee78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,10 +542,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3946c04b-a8b0-4c4f-a795-4519f13bee78")
 		)
 		(pin "LED_WORK" output
 			(at 170.18 58.42 0)
+			(uuid "d98057d0-4b1d-42c7-984b-bd762f428c52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,10 +553,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d98057d0-4b1d-42c7-984b-bd762f428c52")
 		)
 		(pin "BTN_STRUM_UP" input
 			(at 124.46 120.65 180)
+			(uuid "4d8f1ea0-293e-4d1b-8f4f-639765b8c967")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,10 +564,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4d8f1ea0-293e-4d1b-8f4f-639765b8c967")
 		)
 		(pin "BTN_STRUM_DOWN" input
 			(at 124.46 123.19 180)
+			(uuid "0e8c1ad6-9359-42dc-abe2-889875ebded6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,10 +575,10 @@
 				)
 				(justify left)
 			)
-			(uuid "0e8c1ad6-9359-42dc-abe2-889875ebded6")
 		)
 		(pin "CC1101_GDO0" bidirectional
 			(at 170.18 106.68 0)
+			(uuid "b50d5199-c667-4970-96e6-c5395706d7f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,10 +586,10 @@
 				)
 				(justify right)
 			)
-			(uuid "b50d5199-c667-4970-96e6-c5395706d7f3")
 		)
 		(pin "CC1101_GDO2" bidirectional
 			(at 170.18 109.22 0)
+			(uuid "215bf869-bf4b-4d82-b086-bed9dab3b5cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,10 +597,10 @@
 				)
 				(justify right)
 			)
-			(uuid "215bf869-bf4b-4d82-b086-bed9dab3b5cd")
 		)
 		(pin "BTNS_CONTROL" input
 			(at 170.18 60.96 0)
+			(uuid "1521584b-f513-467a-98fd-83e525d8f0c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,10 +608,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1521584b-f513-467a-98fd-83e525d8f0c6")
 		)
 		(pin "POT_WHAM" input
 			(at 170.18 74.93 0)
+			(uuid "ec3fd81b-8ff5-4425-872c-0063b7e33231")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,10 +619,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ec3fd81b-8ff5-4425-872c-0063b7e33231")
 		)
 		(pin "LED_P2" output
 			(at 124.46 81.28 180)
+			(uuid "18ac4934-677f-4d2b-8d31-0dcf296431aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,10 +630,10 @@
 				)
 				(justify left)
 			)
-			(uuid "18ac4934-677f-4d2b-8d31-0dcf296431aa")
 		)
 		(pin "LED_P1" output
 			(at 124.46 78.74 180)
+			(uuid "b77ef9a5-a433-4b95-9ef2-d24d360977b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,27 +641,26 @@
 				)
 				(justify left)
 			)
-			(uuid "b77ef9a5-a433-4b95-9ef2-d24d360977b3")
 		)
 		(pin "BTNS_~{CS}" input
 			(at 170.18 95.25 0)
+			(uuid "6248ad9b-2683-4570-a743-3963ab224ec9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6248ad9b-2683-4570-a743-3963ab224ec9")
 		)
 		(pin "BTNS_~{LD}" input
 			(at 170.18 87.63 0)
+			(uuid "61f4d99d-4137-4176-8a37-db4ecadb83bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "61f4d99d-4137-4176-8a37-db4ecadb83bf")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -669,6 +673,10 @@
 	(sheet
 		(at 60.325 76.2)
 		(size 27.305 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -698,6 +706,7 @@
 		)
 		(pin "LED_P3" input
 			(at 87.63 83.82 0)
+			(uuid "3e15139d-311b-48f1-aabc-fba391519460")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,10 +714,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3e15139d-311b-48f1-aabc-fba391519460")
 		)
 		(pin "LED_P4" input
 			(at 87.63 86.36 0)
+			(uuid "1b5d1a08-aec1-443c-b6ca-c321176c288e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,10 +725,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1b5d1a08-aec1-443c-b6ca-c321176c288e")
 		)
 		(pin "LED_P1" input
 			(at 87.63 78.74 0)
+			(uuid "401b8f30-7f1d-43aa-ae44-700b9ae266e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,10 +736,10 @@
 				)
 				(justify right)
 			)
-			(uuid "401b8f30-7f1d-43aa-ae44-700b9ae266e7")
 		)
 		(pin "LED_P2" input
 			(at 87.63 81.28 0)
+			(uuid "c1955700-dbcf-47c5-86ac-7ba5c9a1f8ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +747,6 @@
 				)
 				(justify right)
 			)
-			(uuid "c1955700-dbcf-47c5-86ac-7ba5c9a1f8ee")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -751,6 +759,10 @@
 	(sheet
 		(at 207.01 72.39)
 		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -780,6 +792,7 @@
 		)
 		(pin "POT_WHAM" output
 			(at 207.01 74.93 180)
+			(uuid "bdbaba3e-afc5-47a4-b9f8-01b416e1c060")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +800,6 @@
 				)
 				(justify left)
 			)
-			(uuid "bdbaba3e-afc5-47a4-b9f8-01b416e1c060")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -800,6 +812,10 @@
 	(sheet
 		(at 207.01 55.88)
 		(size 30.48 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -829,6 +845,7 @@
 		)
 		(pin "LED_WORK" input
 			(at 207.01 58.42 180)
+			(uuid "f47664e8-85e4-4a16-bc20-651494f1422a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,10 +853,10 @@
 				)
 				(justify left)
 			)
-			(uuid "f47664e8-85e4-4a16-bc20-651494f1422a")
 		)
 		(pin "BTNS_CONTROL" output
 			(at 207.01 60.96 180)
+			(uuid "d175b4ea-2406-4b70-a89c-4ba78ac474a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +864,6 @@
 				)
 				(justify left)
 			)
-			(uuid "d175b4ea-2406-4b70-a89c-4ba78ac474a1")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -860,6 +876,10 @@
 	(sheet
 		(at 124.46 36.83)
 		(size 45.72 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -898,6 +918,10 @@
 	(sheet
 		(at 207.01 84.455)
 		(size 30.48 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -927,43 +951,43 @@
 		)
 		(pin "BTNS_SCK" input
 			(at 207.01 90.17 180)
+			(uuid "3d6475ac-f2de-4606-8b03-625318ababc0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3d6475ac-f2de-4606-8b03-625318ababc0")
 		)
 		(pin "BTNS_~{LD}" input
 			(at 207.01 87.63 180)
+			(uuid "185b3c1a-4e61-4fbd-ad73-a6c760300bca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "185b3c1a-4e61-4fbd-ad73-a6c760300bca")
 		)
 		(pin "BTNS_DO" output
 			(at 207.01 92.71 180)
+			(uuid "82bb7f33-e0e6-4bff-9d13-be3761bd9222")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82bb7f33-e0e6-4bff-9d13-be3761bd9222")
 		)
 		(pin "BTNS_~{CS}" input
 			(at 207.01 95.25 180)
+			(uuid "cdc268dd-38c8-45e4-b5f3-ad0d7c3ee1cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cdc268dd-38c8-45e4-b5f3-ad0d7c3ee1cd")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -976,6 +1000,10 @@
 	(sheet
 		(at 207.01 104.14)
 		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1005,6 +1033,7 @@
 		)
 		(pin "CC1101_~{CS}" input
 			(at 207.01 114.3 180)
+			(uuid "20e66584-5297-49f8-8edc-2e23f1ede8dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,10 +1041,10 @@
 				)
 				(justify left)
 			)
-			(uuid "20e66584-5297-49f8-8edc-2e23f1ede8dc")
 		)
 		(pin "CC1101_GDO2" bidirectional
 			(at 207.01 109.22 180)
+			(uuid "d96102e4-30eb-411e-8985-283bdd48c54d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,10 +1052,10 @@
 				)
 				(justify left)
 			)
-			(uuid "d96102e4-30eb-411e-8985-283bdd48c54d")
 		)
 		(pin "CC1101_GDO0" bidirectional
 			(at 207.01 106.68 180)
+			(uuid "c43a93a6-b1cc-4075-88be-35744ea09299")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,10 +1063,10 @@
 				)
 				(justify left)
 			)
-			(uuid "c43a93a6-b1cc-4075-88be-35744ea09299")
 		)
 		(pin "CC1101_MISO" output
 			(at 207.01 121.92 180)
+			(uuid "5667e11d-9f34-48ec-9427-3833ac22db38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,10 +1074,10 @@
 				)
 				(justify left)
 			)
-			(uuid "5667e11d-9f34-48ec-9427-3833ac22db38")
 		)
 		(pin "CC1101_MOSI" input
 			(at 207.01 119.38 180)
+			(uuid "82a7fd5d-be02-4fc8-a8a3-74a96c06cb79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,10 +1085,10 @@
 				)
 				(justify left)
 			)
-			(uuid "82a7fd5d-be02-4fc8-a8a3-74a96c06cb79")
 		)
 		(pin "CC1101_SCK" input
 			(at 207.01 116.84 180)
+			(uuid "6565e84a-f182-456a-b1ca-2861472ff4f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1096,6 @@
 				)
 				(justify left)
 			)
-			(uuid "6565e84a-f182-456a-b1ca-2861472ff4f8")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -1080,6 +1108,10 @@
 	(sheet
 		(at 60.325 95.885)
 		(size 27.305 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1109,6 +1141,7 @@
 		)
 		(pin "ACC_SDA" bidirectional
 			(at 87.63 99.06 0)
+			(uuid "cb67bc4e-faba-4088-bdbc-a19f2e5b95ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,10 +1149,10 @@
 				)
 				(justify right)
 			)
-			(uuid "cb67bc4e-faba-4088-bdbc-a19f2e5b95ec")
 		)
 		(pin "ACC_INT2" output
 			(at 87.63 107.95 0)
+			(uuid "e23a291c-764e-4f4a-a494-9c5bb0cf7675")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,10 +1160,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e23a291c-764e-4f4a-a494-9c5bb0cf7675")
 		)
 		(pin "ACC_SCL" input
 			(at 87.63 101.6 0)
+			(uuid "66571bb9-591a-4bea-aa5b-ece7f901fd22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,10 +1171,10 @@
 				)
 				(justify right)
 			)
-			(uuid "66571bb9-591a-4bea-aa5b-ece7f901fd22")
 		)
 		(pin "ACC_INT1" output
 			(at 87.63 105.41 0)
+			(uuid "51d548b1-8a0a-45d6-8128-ced15501f2e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1182,6 @@
 				)
 				(justify right)
 			)
-			(uuid "51d548b1-8a0a-45d6-8128-ced15501f2e4")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -1162,6 +1194,10 @@
 	(sheet
 		(at 60.325 116.84)
 		(size 27.305 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1191,6 +1227,7 @@
 		)
 		(pin "BTN_STRUM_UP" output
 			(at 87.63 120.65 0)
+			(uuid "bc22d7ae-eb07-4ca1-b724-771be6bb34a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,10 +1235,10 @@
 				)
 				(justify right)
 			)
-			(uuid "bc22d7ae-eb07-4ca1-b724-771be6bb34a8")
 		)
 		(pin "BTN_STRUM_DOWN" output
 			(at 87.63 123.19 0)
+			(uuid "a0a09759-a91a-4259-944c-79a912115164")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1246,6 @@
 				)
 				(justify right)
 			)
-			(uuid "a0a09759-a91a-4259-944c-79a912115164")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -1222,6 +1258,10 @@
 	(sheet
 		(at 60.325 53.975)
 		(size 27.305 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1251,6 +1291,7 @@
 		)
 		(pin "DBG_RX" output
 			(at 87.63 59.69 0)
+			(uuid "3f02dd86-b1ac-4eb4-a4f0-b12690f4ec09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,10 +1299,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3f02dd86-b1ac-4eb4-a4f0-b12690f4ec09")
 		)
 		(pin "DBG_SWCLK" output
 			(at 87.63 66.04 0)
+			(uuid "0081bd92-f9c3-457d-868d-4c71ab824b06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,10 +1310,10 @@
 				)
 				(justify right)
 			)
-			(uuid "0081bd92-f9c3-457d-868d-4c71ab824b06")
 		)
 		(pin "DBG_~{RST}" output
 			(at 87.63 68.58 0)
+			(uuid "8e386115-19d2-426f-8aff-d046cb48107a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,10 +1321,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8e386115-19d2-426f-8aff-d046cb48107a")
 		)
 		(pin "DBG_SWDIO" bidirectional
 			(at 87.63 63.5 0)
+			(uuid "af10309f-e286-4a17-ab92-ca1f3ba6eca4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,10 +1332,10 @@
 				)
 				(justify right)
 			)
-			(uuid "af10309f-e286-4a17-ab92-ca1f3ba6eca4")
 		)
 		(pin "DBG_TX" input
 			(at 87.63 57.15 0)
+			(uuid "7c3f8267-03bc-4a19-b07a-13a59f9f76ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1343,6 @@
 				)
 				(justify right)
 			)
-			(uuid "7c3f8267-03bc-4a19-b07a-13a59f9f76ca")
 		)
 		(instances
 			(project "Antares-Transmitter"
@@ -1317,4 +1357,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
